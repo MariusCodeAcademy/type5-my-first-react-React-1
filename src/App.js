@@ -3,14 +3,16 @@ import ImageList from './components/ImageList';
 import MainHeading from './components/MainHeading';
 import SubTitle from './components/SubTitle';
 import MainText from './components/MainText';
+import TravelCard from './components/TravelCard';
 
 function App() {
   return (
     <div className='App container'>
-      <MainHeading />
+      {/* <MainHeading />
       <SubTitle />
       <MainText />
-      <ImageList />
+      <ImageList /> */}
+      <TravelCard />
     </div>
   );
 }
