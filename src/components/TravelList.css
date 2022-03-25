@@ -1,7 +1,19 @@
 .travel {
+  padding: 5% 0;
   background-color: #333;
 }
 
 .travel-info {
   background-color: #fff;
+}
+.travel-info {
+  padding: 20px;
+}
+.travel-info h3 {
+  margin-top: 0;
+}
+
+.travel-card {
+  display: flex;
+  flex-direction: column;
 }
